@@ -60,3 +60,5 @@ func (as *AuthService) Login(loginReq *models.LoginRequest) (string, error) {
 
 	return token, nil
 } 
+
+
